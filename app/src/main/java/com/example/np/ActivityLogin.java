@@ -72,7 +72,7 @@ public class ActivityLogin extends AppCompatActivity {
                             if (!task.isSuccessful()) {
                                 Toast.makeText(ActivityLogin.this, "Not sucessfull", Toast.LENGTH_SHORT).show();
                             } else {
-                                startActivity(new Intent(ActivityLogin.this, UserActivity.class));
+                                startActivity(new Intent(ActivityLogin.this, NectarHome.class));
                             }
                         }
                     });

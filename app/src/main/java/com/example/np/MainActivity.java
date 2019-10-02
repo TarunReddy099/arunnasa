@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                                         "SignUp unsuccessful: " + task.getException().getMessage(),
                                         Toast.LENGTH_SHORT).show();
                             } else {
-                                startActivity(new Intent(MainActivity.this, UserActivity.class));
+                                startActivity(new Intent(MainActivity.this, NectarHome.class));
                             }
                         }
                     });

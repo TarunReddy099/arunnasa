@@ -6,4 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".NectarHome">
 
+    <Button
+        android:id="@+id/buy"
+        android:layout_width="322dp"
+        android:layout_height="71dp"
+        android:text="BUY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182" />
+
+    <Button
+        android:id="@+id/donate"
+        android:layout_width="297dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="344dp"
+        android:text="DONATE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.179" />
 </androidx.constraintlayout.widget.ConstraintLayout>
