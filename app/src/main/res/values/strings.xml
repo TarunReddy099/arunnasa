@@ -8,12 +8,25 @@
 
     </array>
 
-<array name="ewas">
-    <item>mobiles</item>
-    <item>computers</item>
-    <item>other gadgets</item>
-</array>
+    <array name="ewas">
+        <item>mobiles</item>
+        <item>computers</item>
+        <item>other gadgets</item>
+    </array>
 
+    <array name="type1">
+        <item>cotton</item>
+        <item>silk</item>
+        <item>woolen</item>
+        <item>jeans</item>
+        <item>synthetic</item>
+    </array>
+
+    <array name="quality1">
+        <item>good</item>
+        <item>average</item>
+        <item>bad</item>
+    </array>
 
 
 </resources>

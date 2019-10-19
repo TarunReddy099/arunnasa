@@ -16,6 +16,13 @@ Button pla,tex,ew;
         pla =findViewById(R.id.plastic);
         tex =findViewById(R.id.textile);
         ew =findViewById(R.id.ewaste);
+        tex.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iii=new Intent(DonateHome.this,TextileHome.class);
+                startActivity(iii);
+            }
+        });
 
         pla.setOnClickListener(new View.OnClickListener() {
             @Override
