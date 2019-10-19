@@ -8,22 +8,24 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="272dp"
-        android:layout_height="106dp"
+        android:layout_width="366dp"
+        android:layout_height="133dp"
         android:text="Thanks for donating your waste your nectar credits will be credited to you"
         android:textAlignment="center"
-        android:textSize="12sp"
-        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307" />
 
     <Button
         android:id="@+id/gotohome"
         android:layout_width="136dp"
         android:layout_height="53dp"
-        android:text="Goto Home"
+        android:text="Home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

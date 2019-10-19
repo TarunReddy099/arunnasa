@@ -7,6 +7,16 @@
     android:gravity="center"
     tools:context="com.javapapers.firebaseauthdemo.MainActivity">
 
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:text="NECTAR"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
     <EditText
         android:id="@+id/ETemail"
         android:layout_width="350dp"
