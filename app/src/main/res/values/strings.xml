@@ -8,7 +8,11 @@
 
     </array>
 
-
+<array name="ewas">
+    <item>mobiles</item>
+    <item>computers</item>
+    <item>other gadgets</item>
+</array>
 
 
 

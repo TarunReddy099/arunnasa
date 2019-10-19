@@ -25,6 +25,7 @@
         android:id="@+id/spinner2"
         android:layout_width="324dp"
         android:layout_height="68dp"
+        android:entries="@array/ewas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.356"
