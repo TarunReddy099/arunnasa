@@ -9,31 +9,34 @@
 
     <EditText
         android:id="@+id/ETemail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
         android:layout_margin="15dp"
         android:hint="Email"
-        android:inputType="textEmailAddress"
-        />
+        android:inputType="textEmailAddress" />
+
     <EditText
         android:id="@+id/ETpassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
         android:layout_margin="15dp"
         android:hint="Password"
-        android:inputType="numberPassword"
-        />
+        android:inputType="numberPassword" />
+
     <Button
         android:id="@+id/btnSignUp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
         android:layout_margin="15dp"
-        android:text="Sign Up"/>
+        android:text="Sign Up" />
+
     <TextView
         android:id="@+id/TVSignIn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Already have an account? Sign in Here"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
         android:layout_margin="15dp"
-        android:textSize="20dp"/>
+        android:text="Already Registered ? Sign In"
+        android:textSize="25sp"
+        android:textsize"32sp"
+        android:text="Already have an account? Sign in Here"
 </LinearLayout>

@@ -8,35 +8,34 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="308dp"
-        android:layout_height="51dp"
-        android:text="Type of e-waste"
-        android:textSize="32sp"
-        android:textStyle="bold"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:text="E-WASTE DONATION"
         android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.209"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.119" />
+        app:layout_constraintVertical_bias="0.126" />
 
     <Spinner
         android:id="@+id/spinner2"
-        android:layout_width="324dp"
-        android:layout_height="68dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:entries="@array/ewas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.356"
+        app:layout_constraintHorizontal_bias="0.816"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26" />
+        app:layout_constraintVertical_bias="0.31" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="140dp"
-        android:layout_height="53dp"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
         android:layout_marginTop="160dp"
         android:text="Donate"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -45,4 +44,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner2"
         app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" />
 </androidx.constraintlayout.widget.ConstraintLayout>
