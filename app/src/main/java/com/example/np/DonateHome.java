@@ -24,5 +24,12 @@ Button pla,tex,ew;
                 startActivity(intent);
             }
         });
+        ew.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(DonateHome.this,Ewaste.class);
+                startActivity(intent);
+            }
+        });
     }
 }

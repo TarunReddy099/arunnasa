@@ -1,11 +1,15 @@
 <resources>
     <string name="app_name">np</string>
     <array name="typeofplas">
+
         <item>regular plastic</item>
         <item>polythene</item>
         <item>broken plastic products</item>
 
     </array>
+
+
+
 
 
 </resources>
